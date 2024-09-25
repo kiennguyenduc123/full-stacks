@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color:white;
+    margin:0;
+    box-sizing: border-box;
+    padding:0
+}
+button{
+    cursor:pointer
+}
+select{
+    cursor:pointer
+}

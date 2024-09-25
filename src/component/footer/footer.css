@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.footerContainer{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.footerLine{
+    width: 90%;
+    position:relative;
+    left:5%;
+    height: 1px;
+    background: radial-gradient(#C4C4C4, #12232E);
+    display:flex;
+    justify-content: center;
+}
+.footerList{
+    display:flex;
+    justify-content: space-around;
+}
+.footerLogo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLine p{
+    padding-top: 1%;
+}
